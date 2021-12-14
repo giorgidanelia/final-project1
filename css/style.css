@@ -4,7 +4,7 @@ header {
     width: 100%;
     z-index: 100;
 }
-.conteiner {
+.header-conteiner {
     max-width: 1170px;
     width: 100%;
     margin: auto;
@@ -15,11 +15,15 @@ header {
     background-color: #FFFFFF;
     padding: 36px 0 ;
 }
-.logo1 {
-    margin-right: 91px;
+.burger-bar {
+    display: none;
+}
+.img-logo {
+    display: flex;
+    align-items: center;
 }
 .header-div2 {
-    max-width:1096px ;
+    max-width:1170px ;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -71,13 +75,14 @@ header {
     padding-top: 91px;
 }       
 .article-conteiner {
-    max-width: 1170px;
-    width: 100%;
+    width: 1170px;
+    
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
-.article-div1 {
-    max-width: 1170px;
-    width: 100%;
+.cover {
+    width: 1170px;
     height: 603px;
     background-image: url("../img/cover-img.jpg");
     display: flex;
@@ -85,14 +90,14 @@ header {
     align-items: center;
     flex-direction: column;
 }
-.article-div1 > h1 {
+.cover > h1 {
     font-size: 60px;
     color: #202126;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-style: normal;
 }
-.article-div1 > p {
+.cover > p {
     font-size: 18px;
     color: #202126;
     padding-top: 25px;
@@ -105,7 +110,7 @@ header {
 .section1 {
     padding-top: 150px;
 }
-.section-conteiner {
+.section1-conteiner {
     max-width: 1170px;
     width: 100%;
     margin: auto;
@@ -113,11 +118,16 @@ header {
 .section-div1 {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
+.section-content-div {
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+}
+    
 .section-div2 {
     width: 689px;
-    margin-right: 112px; 
+    
 }
 .section-div2 > h4 {
     font-size: 25px;
@@ -134,24 +144,30 @@ header {
     line-height: 1.9;
 }
 .section-div3 {
-    width: 130px;
+    width: 140px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:end;
 }
-.section-div3 > p a {
+.section-div3 >a span  {
     color: #202126;
-}
-.section-div3>p {
     font-size: 16px;
     margin-right: 12px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-style: normal; 
 }
-.section-div3 > p a:hover {
+.section-div3 > span :hover {
     color: #D7BE69;
 }
+.section-div3 >a span :hover {
+    color: #D7BE69;
+}
+.fas {
+    font-size: 10px;
+    margin-left: 15px;
+}
+
         /* section1 end */
         /* section2 start */
 
@@ -164,7 +180,6 @@ header {
     margin: auto;
 }
 .section2-div2 {
-    width: 1170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,7 +211,6 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 33px;
 }
 .section2-div5 {
@@ -410,19 +424,19 @@ header {
 .footer-input1 {
     height: 48px;
     font-size: 12px;
-    color: #D5D5D5;
-    border: 2px solid #202126;
+    color: #202126;
+    border: 1px solid #202126;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 25px;
     padding-left: 25px;
-    text-decoration-color: #202126;
+    
 }
 .footer-input3 {
     height: 123px;
     font-size: 12px;
-    color: #311515;
-    border: 2px solid #202126;
+    color: #202126;
+    border: 1px solid #202126;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 25px;
