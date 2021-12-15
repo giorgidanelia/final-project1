@@ -29,21 +29,44 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.nav-ul{
+.nav-ul1{
     display: flex;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
 }
-.nav-ul:hover{
+.nav-li1:hover{
   text-decoration: underline;
 }
-.nav-li > a { 
-    color: #202126;
+.nav-li2:hover{
+    text-decoration: underline;
 }
-.nav-li:not(:last-child) {
+.nav-li3:hover{
+    text-decoration: underline;
+}
+.nav-li4:hover{
+    text-decoration: underline;
+}
+.nav-li1 {
     margin-right: 36px;
 }
-
+.nav-li2 {
+    margin-right: 36px;
+}
+.nav-li3 {
+    margin-right: 36px;
+}
+.nav-li1 > a { 
+    color: #202126;
+}
+.nav-li2 > a { 
+    color: #202126;
+}
+.nav-li3 > a { 
+    color: #202126;
+}
+.nav-li4 > a { 
+    color: #202126;
+}
 .conteiner-div3 {
     max-width: 210px;
     width: 100%;
@@ -123,11 +146,9 @@ header {
     width: 970px;
     display: flex;
     justify-content: space-between;
-}
-    
+}  
 .section-div2 {
-    width: 689px;
-    
+    width: 689px;   
 }
 .section-div2 > h4 {
     font-size: 25px;
@@ -143,13 +164,13 @@ header {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.9;
 }
-.section-div3 {
-    width: 140px;
+.arrow-div {
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items:end;
 }
-.section-div3 >a span  {
+.arrow-div >a span  {
     color: #202126;
     font-size: 16px;
     margin-right: 12px;
@@ -157,16 +178,15 @@ header {
     font-weight: 600;
     font-style: normal; 
 }
-.section-div3 > span :hover {
-    color: #D7BE69;
-}
-.section-div3 >a span :hover {
-    color: #D7BE69;
+/* --------------arow---------------- */
+.span1:hover {
+    color:#D7BE69;
 }
 .fas {
     font-size: 10px;
     margin-left: 15px;
 }
+/* --------------arow---------------- */
 
         /* section1 end */
         /* section2 start */
@@ -197,7 +217,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-.srction2-div3> p {
+.srction2-div3> span {
     font-size: 16px;
     color: #202126;
     font-family: 'Montserrat', sans-serif;
@@ -260,7 +280,7 @@ header {
     align-items: center;
     margin-top: 20px;
 }
-.section2-div9>p {
+.section2-div9> span {
     font-size: 16px;
     color: #202126;
     font-family: 'Montserrat', sans-serif;
@@ -301,7 +321,7 @@ header {
     margin-top: 25px;
 }
 .srction-div02 {
-    max-width: 140px;
+    max-width: 150px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -311,14 +331,11 @@ header {
 .srction-div02>a {
     color: #202126;
 }
-.srction-div02>a p {
+.srction-div02>a span {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-style: normal;
-}
-.srction-div02>a p:hover {
-    color: #D7BE69;
 }
 .section3-conteiner {
     max-width: 709px;
@@ -379,11 +396,24 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.section3-div2>a p {
+.section3-div2>a span {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-style: normal;
+}
+.srction3-div03 {
+    font-size: 16px;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+.srction3-div03>a {
+  color: #202126;
 }
         /* section3 end */
         /* footer start */
@@ -441,6 +471,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     margin-top: 25px;
     padding-left: 25px;
+    resize: none;
 }
 .footer-input4 {
     font-size: 16px;
@@ -462,6 +493,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .footer-ul4 {
     max-width: 356px;
@@ -494,6 +526,4 @@ header {
     font-size: 12px;
     color: #D5D5D5;
 }
-
-
         /* footer end */
